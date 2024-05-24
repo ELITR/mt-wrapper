@@ -4,8 +4,9 @@ MT Wrapper is a tool that receives punctuated re-translating (or incremental) AS
 input, segments it by punctuation to sentences, and translates them trough
 machine translation subprocess.
 
-It was created in 2021 by Dominik Macháček within the ELITR project. It was
-first used and described in ELITR submission at IWSLT 2021. Since that, it
+It was created by Dominik Macháček within the ELITR project. It was
+first used and described in (ELITR submission at IWSLT
+2020)[https://aclanthology.org/2020.iwslt-1.25/]. Since that, it
 is a part of the ELITR framework for complex and distributed system for live
 speech translation.
 
@@ -136,5 +137,44 @@ used to handle the target languages.
 
 
 The only dependency is the ELITR `online-text-flow`: https://github.com/ELITR/online-text-flow/
+
+## How to cite
+
+Please, refer to Section 5.3 in
+https://aclanthology.org/2020.iwslt-1.25.pdf, and cite:
+
+```
+@inproceedings{machacek-etal-2020-elitr,
+    title = "{ELITR} Non-Native Speech Translation at {IWSLT} 2020",
+    author = "Mach{\'a}{\v{c}}ek, Dominik  and
+      Kratochv{\'\i}l, Jon{\'a}{\v{s}}  and
+      Sagar, Sangeet  and
+      {\v{Z}}ilinec, Mat{\'u}{\v{s}}  and
+      Bojar, Ond{\v{r}}ej  and
+      Nguyen, Thai-Son  and
+      Schneider, Felix  and
+      Williams, Philip  and
+      Yao, Yuekun",
+    editor = {Federico, Marcello  and
+      Waibel, Alex  and
+      Knight, Kevin  and
+      Nakamura, Satoshi  and
+      Ney, Hermann  and
+      Niehues, Jan  and
+      St{\"u}ker, Sebastian  and
+      Wu, Dekai  and
+      Mariani, Joseph  and
+      Yvon, Francois},
+    booktitle = "Proceedings of the 17th International Conference on Spoken Language Translation",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.iwslt-1.25",
+    doi = "10.18653/v1/2020.iwslt-1.25",
+    pages = "200--208",
+    abstract = "This paper is an ELITR system submission for the non-native speech translation task at IWSLT 2020. We describe systems for offline ASR, real-time ASR, and our cascaded approach to offline SLT and real-time SLT. We select our primary candidates from a pool of pre-existing systems, develop a new end-to-end general ASR system, and a hybrid ASR trained on non-native speech. The provided small validation set prevents us from carrying out a complex validation, but we submit all the unselected candidates for contrastive evaluation on the test set.",
+}
+```
 
 
