@@ -5,8 +5,8 @@ input, segments it by punctuation to sentences, and translates them trough
 machine translation subprocess.
 
 It was created by Dominik Macháček within the ELITR project. It was
-first used and described in (ELITR submission at IWSLT
-2020)[https://aclanthology.org/2020.iwslt-1.25/]. Since that, it
+first used and described in [ELITR submission at IWSLT
+2020](https://aclanthology.org/2020.iwslt-1.25/). Since that, it
 is a part of the ELITR framework for complex and distributed system for live
 speech translation.
 
